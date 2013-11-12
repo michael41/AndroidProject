@@ -1,11 +1,9 @@
 <!--
  Dimensions for each drawable folder = 
-(same as ic_launcher)
-48x48 = mdpi
-72x72 = hdpi
-96x96 = xhdpi
-144x144 = xxhdpi -->
-
+mdpi = 48x48
+hdpi = 72x72
+xhdpi = 96x96
+-->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
