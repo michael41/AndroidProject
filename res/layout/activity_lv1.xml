@@ -7,7 +7,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".Lv1Activity" >
-<!--  commit test -->
+<!--  commit test SDFG-->
     <TableLayout
         android:id="@+id/tableLayout1"
         android:layout_width="wrap_content"
