@@ -102,7 +102,7 @@ public class Lv1Activity extends Activity {
 			public void onAnimationEnd(Animation animation) {
 				if (selectedImages.size() == 1) {
 					selectedImages.get(0).setBackgroundResource(
-							R.drawable.playing_card_back);
+							R.drawable.pcard_playingcardback);
 				}
 				if (selectedImages.size() == 2) {
 					selectedImages.get(1).setBackgroundResource(0);

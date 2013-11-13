@@ -6,13 +6,32 @@
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_lv1">Level 1</string>
 
-    
+    <!-- TextViews -->
     <string name="game_name">Memory Learn</string>
-    
+    <string name="configuresettings">Change settings</string>
+
     <!-- Buttons -->
     <string name="start">Start</string>
     <string name="highscores">High Scores</string>
     <string name="options">Options</string>
+    <string name="save">Save</string>
+    <string name="play">Play</string>
+
+    <!-- Spinners -->
+    <string-array name="language_array">
+        <item>English</item>
+        <item>French</item>
+        <item>Spanish</item>
+    </string-array>
+    <string-array name="background_array">
+        <item>Retro</item>
+        <item>Colourful</item>
+        <item>Plain</item>
+    </string-array>
+
+    <!-- Radio Buttons -->
+    <string name="musicon">Music on</string>
+    <string name="musicoff">Music off</string>
 
     <!-- VOCABLUARY STRINGS IN ENGLISH, FRENCH & SPANISH -->
     <!-- ENGLISH -->
@@ -104,5 +123,8 @@
     <string name="truck_sp">Camión</string>
     <string name="title_activity_home_screen">HomeScreen</string>
     <string name="title_activity_pjlkj">MainActivity</string>
+    <string name="title_activity_asdfsdsdf">ASDFSDsdf</string>
+    <string name="title_activity_lkk">MainActivity</string>
+    <string name="title_activity_options">MainActivity</string>
 
 </resources>

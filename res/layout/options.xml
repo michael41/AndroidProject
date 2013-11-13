@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	 ><!-- android:prompt="@string/language_prompt" --><!-- android:prompt="@string/background_prompt" -->
+  
+  <TextView
+ 	    android:id="@+id/TVconfigsettings"
+ 	    android:layout_width="wrap_content"
+ 	    android:layout_height="wrap_content"
+ 	    android:layout_alignParentTop="true"
+ 	    android:layout_centerHorizontal="true"
+ 	    android:layout_marginTop="40dp"
+ 	    android:text="@string/configuresettings"
+ 	    android:textSize="30sp"
+ 	    android:textStyle="bold" />
+ 	
+ 	<Spinner
+ 	    android:id="@+id/SPNchangebackground"
+ 	    android:layout_width="wrap_content"
+ 	    android:layout_height="wrap_content"
+ 	    android:layout_alignParentLeft="true"
+ 	    android:layout_below="@+id/SPNlanguage"
+ 	    android:layout_marginTop="40dp"
+ 	    android:layout_marginLeft="60dp"
+ 	    android:entries="@array/background_array" />
+
+ 		 	<Spinner
+ 	 	    android:id="@+id/SPNlanguage"
+ 	 	    android:layout_width="wrap_content"
+ 	 	    android:layout_height="wrap_content"
+ 	 	    android:layout_alignParentLeft="true"
+ 	 	    android:layout_below="@+id/TVconfigsettings"
+ 	 	    android:layout_marginTop="40dp"
+ 	 	    android:layout_marginLeft="60dp"
+ 	 	    android:entries="@array/language_array"
+ 	 	    android:textStyle="bold" />
+
+ 		 <RadioGroup
+ 	    android:id="@+id/RGmusic"
+ 	    android:layout_width="wrap_content"
+ 	    android:layout_height="wrap_content"
+ 	    android:orientation="horizontal"
+ 	    android:layout_alignParentLeft="true"
+ 	    android:layout_below="@+id/SPNchangebackground"
+ 	    android:layout_marginTop="40dp"
+ 	    android:layout_marginLeft="60dp"
+ 	    android:layout_centerHorizontal="true" > 
+        <RadioButton
+            android:id="@+id/RBmusicon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/musicon"             
+            android:checked="true"
+             /> 
+        <RadioButton
+            android:id="@+id/RBmusicoff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/musicoff" /> 
+    </RadioGroup>
+
+ 		 <Button
+ 		     android:id="@+id/BTNsave"
+ 		     android:layout_width="wrap_content"
+ 		     android:layout_height="wrap_content"
+ 		     android:layout_above="@+id/BTNplay"
+ 		     android:layout_centerHorizontal="true"
+ 		     android:text="@string/save" />
+ 		 
+ 		  		 <Button
+ 		     android:id="@+id/BTNplay"
+ 		     android:layout_width="wrap_content"
+ 		     android:layout_height="wrap_content"
+ 		     android:layout_alignLeft="@+id/BTNsave"
+ 		     android:layout_alignParentBottom="true"
+ 		     android:text="@string/play" />
+
+</RelativeLayout>
+

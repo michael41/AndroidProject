@@ -20,22 +20,25 @@ xlarge screens are at least 960dp x 720dp (xhdpi)
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="@drawable/background_image"
-    tools:context=".MainActivity" >
+    android:paddingTop="@dimen/activity_vertical_margin"   
+    tools:context=".MainActivity"
+    android:id="@+id/LLactivity_main" >
+     <!-- android:background="@drawable/background_image" -->
+    
 
 <RelativeLayout
     android:layout_width="fill_parent" 
     android:layout_height="fill_parent"
     tools:context=".MainActivity">
 
+    <!-- note that this will look empty in the graphical layout window because the text colour is white -->
 <TextView
         android:id="@+id/TVtitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:textStyle="bold"
-         android:textSize="45sp"
+        android:textSize="40sp"
         android:textColor="#FFFFFF"
         android:text="@string/game_name" />    
     
@@ -50,7 +53,7 @@ xlarge screens are at least 960dp x 720dp (xhdpi)
          android:text="@string/start"
          android:textStyle="bold"
          android:textSize="20sp"
-         android:background="@drawable/nova" />
+         /><!-- android:background="@drawable/nova"   -->
     
     <Button
         android:id="@+id/BTNhighscores"
@@ -61,7 +64,7 @@ xlarge screens are at least 960dp x 720dp (xhdpi)
         android:text="@string/highscores"
         android:textStyle="bold"
         android:textSize="12sp"
-        android:background="@drawable/bluestar" />    
+         /> <!-- android:background="@drawable/bluestar"   -->  
 
      <Button
          android:id="@+id/BTNoptions"
@@ -70,11 +73,11 @@ xlarge screens are at least 960dp x 720dp (xhdpi)
          android:layout_below="@+id/BTNhighscores"
          android:layout_centerHorizontal="true"
          android:layout_marginTop="20dp"
-         android:onClick="startLv1"
+         android:onClick="startOptions"
          android:text="@string/options"
          android:textStyle="bold"
          android:textSize="12sp"
-         android:background="@drawable/bluestar" />
+         /><!-- android:background="@drawable/bluestar"   -->
 
 </RelativeLayout>
     
