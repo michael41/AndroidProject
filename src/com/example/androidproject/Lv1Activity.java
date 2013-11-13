@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
+import android.graphics.Typeface;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
@@ -14,10 +15,13 @@ import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.Animation.AnimationListener;
 import android.view.animation.AnimationUtils;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 public class Lv1Activity extends Activity {
+	
+
 
 	TextView iv1, iv2, iv3, iv4, iv5, iv6, iv7, iv8, iv9, iv10, iv11, iv12,
 			iv13, iv14, iv15, iv16;
@@ -32,7 +36,13 @@ public class Lv1Activity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_lv1);
+		setContentView(R.layout.activity_lv1);	
+		
+		Typeface font = Typeface.createFromAsset(getAssets(), "Xolonium-Bold.otf");
+		Button b = (Button) findViewById(R.id.button1);
+				b.setTypeface(font);
+		
+		
 		// Show the Up button in the action bar.
 		setupActionBar();
 

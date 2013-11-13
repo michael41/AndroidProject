@@ -5,7 +5,16 @@
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_lv1">Level 1</string>
+
     
+    <string name="game_name">Memory Learn</string>
+    
+    <!-- Buttons -->
+    <string name="start">Start</string>
+    <string name="highscores">High Scores</string>
+    <string name="options">Options</string>
+
+    <!-- VOCABLUARY STRINGS IN ENGLISH, FRENCH & SPANISH -->
     <!-- ENGLISH -->
     <!-- Accessories -->
     <string name="keys_en">Keys</string>
@@ -15,27 +24,27 @@
     <string name="camel_en">Camel</string>
     <string name="monkey_en">Monkey</string>
     <string name="tiger_en">Tiger</string>
-    <!-- Buildings -->    
+    <!-- Buildings -->
     <string name="church_en">Church</string>
     <string name="house_en">House</string>
-    <string name="stadium_en">Stadium</string>    
+    <string name="stadium_en">Stadium</string>
     <!-- Clothes, etc. -->
     <string name="dress_en">Dress</string>
     <string name="hat_en">Hat</string>
     <string name="umbrella_en">Umbrella</string>
-    <!-- Food -->     
+    <!-- Food -->
     <string name="hamburger_en">Hamburger</string>
     <string name="hotdog_en">Hot Dog</string>
     <string name="pizza_en">Pizza</string>
     <!-- Fruit -->
-    <string name="apple_en">Apple</string>    
+    <string name="apple_en">Apple</string>
     <string name="banana_en">Banana</string>
-    <string name="grapes_en">Grapes</string>   
-    <!-- Vehicles -->    
+    <string name="grapes_en">Grapes</string>
+    <!-- Vehicles -->
     <string name="car_en">Car</string>
     <string name="motorbike_en">Motorbike</string>
     <string name="truck_en">Truck</string>
-    
+
     <!-- FRENCH -->
     <string name="keys_fr">Clé</string>
     <string name="phone_fr">Phone</string>
@@ -44,27 +53,27 @@
     <string name="camel_fr">Chameau</string>
     <string name="monkey_fr">Singe</string>
     <string name="tiger_fr">Tigre</string>
-    <!-- Buildings -->    
+    <!-- Buildings -->
     <string name="church_fr">Église</string>
     <string name="house_fr">Maison</string>
-    <string name="stadium_fr">Stade</string>    
+    <string name="stadium_fr">Stade</string>
     <!-- Clothes, etc. -->
     <string name="dress_fr">Robe</string>
     <string name="hat_fr">Chapeau</string>
     <string name="umbrella_fr">Parapluie</string>
-    <!-- Food -->     
+    <!-- Food -->
     <string name="hamburger_fr">Hamburger</string>
     <string name="hotdog_fr">Hot Dog</string>
     <string name="pizza_fr">Pizza</string>
     <!-- Fruit -->
-    <string name="apple_fr">Pomme</string>    
+    <string name="apple_fr">Pomme</string>
     <string name="banana_fr">Banane</string>
-    <string name="grapes_fr">Raisins</string>   
-    <!-- Vehicles -->    
+    <string name="grapes_fr">Raisins</string>
+    <!-- Vehicles -->
     <string name="car_fr">Voiture</string>
     <string name="motorbike_fr">Moto</string>
     <string name="truck_fr">Camion</string>
-    
+
     <!-- SPANISH -->
     <string name="keys_sp">Clave</string>
     <string name="phone_sp">Fon</string>
@@ -73,26 +82,27 @@
     <string name="camel_sp">Camello</string>
     <string name="monkey_sp">Mono</string>
     <string name="tiger_sp">Tigre</string>
-    <!-- Buildings -->    
+    <!-- Buildings -->
     <string name="church_sp">Iglesia</string>
     <string name="house_sp">Casa</string>
-    <string name="stadium_sp">Estadio</string>    
+    <string name="stadium_sp">Estadio</string>
     <!-- Clothes, etc. -->
     <string name="dress_sp">Vestido</string>
     <string name="hat_sp">Sombrero</string>
     <string name="umbrella_sp">Paraguas</string>
-    <!-- Food -->     
+    <!-- Food -->
     <string name="hamburger_sp">Hamburguesa</string>
     <string name="hotdog_sp">Hot Dog</string>
     <string name="pizza_sp">Pizza</string>
     <!-- Fruit -->
-    <string name="apple_sp">Manzana</string>    
+    <string name="apple_sp">Manzana</string>
     <string name="banana_sp">Plátano</string>
-    <string name="grapes_sp">Uvas</string>   
-    <!-- Vehicles -->    
+    <string name="grapes_sp">Uvas</string>
+    <!-- Vehicles -->
     <string name="car_sp">Coche</string>
     <string name="motorbike_sp">Moto</string>
     <string name="truck_sp">Camión</string>
-    
+    <string name="title_activity_home_screen">HomeScreen</string>
+    <string name="title_activity_pjlkj">MainActivity</string>
 
 </resources>

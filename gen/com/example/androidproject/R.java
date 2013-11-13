@@ -25,12 +25,30 @@ public final class R {
         public static final int activity_vertical_margin=0x7f050001;
     }
     public static final class drawable {
-        public static final int apple=0x7f020000;
-        public static final int ic_launcher=0x7f020001;
-        public static final int playing_card_back=0x7f020002;
+        public static final int altlauncher=0x7f020000;
+        public static final int apple=0x7f020001;
+        public static final int background_image=0x7f020002;
+        public static final int banana=0x7f020003;
+        public static final int bluestar=0x7f020004;
+        public static final int camel=0x7f020005;
+        public static final int car=0x7f020006;
+        public static final int grapes=0x7f020007;
+        public static final int ic_launcher=0x7f020008;
+        public static final int monkey=0x7f020009;
+        public static final int motorbike=0x7f02000a;
+        public static final int nova=0x7f02000b;
+        public static final int playing_card_back=0x7f02000c;
+        public static final int star=0x7f02000d;
+        public static final int tiger=0x7f02000e;
+        public static final int truck=0x7f02000f;
+        public static final int wierd=0x7f020010;
     }
     public static final class id {
-        public static final int action_settings=0x7f090018;
+        public static final int BTNhighscores=0x7f090019;
+        public static final int BTNoptions=0x7f09001a;
+        public static final int BTNstart=0x7f090018;
+        public static final int TVtitle=0x7f090017;
+        public static final int action_settings=0x7f09001b;
         public static final int button1=0x7f090016;
         public static final int card1=0x7f090003;
         public static final int card10=0x7f09000d;
@@ -54,21 +72,137 @@ public final class R {
         public static final int tableRow2=0x7f090007;
         public static final int tableRow3=0x7f09000c;
         public static final int tableRow4=0x7f090011;
-        public static final int textView1=0x7f090017;
     }
     public static final class layout {
         public static final int activity_lv1=0x7f030000;
         public static final int activity_main=0x7f030001;
     }
     public static final class menu {
-        public static final int lv1=0x7f080000;
-        public static final int main=0x7f080001;
+        public static final int home_screen=0x7f080000;
+        public static final int lv1=0x7f080001;
+        public static final int main=0x7f080002;
+        public static final int pjlkj=0x7f080003;
     }
     public static final class string {
         public static final int action_settings=0x7f060001;
         public static final int app_name=0x7f060000;
+        /**  Fruit 
+         */
+        public static final int apple_en=0x7f060017;
+        /**  Fruit 
+         */
+        public static final int apple_fr=0x7f06002c;
+        /**  Fruit 
+         */
+        public static final int apple_sp=0x7f060041;
+        public static final int banana_en=0x7f060018;
+        public static final int banana_fr=0x7f06002d;
+        public static final int banana_sp=0x7f060042;
+        /**  Animals 
+         */
+        public static final int camel_en=0x7f06000b;
+        /**  Animals 
+         */
+        public static final int camel_fr=0x7f060020;
+        /**  Animals 
+         */
+        public static final int camel_sp=0x7f060035;
+        /**  Vehicles 
+         */
+        public static final int car_en=0x7f06001a;
+        /**  Vehicles 
+         */
+        public static final int car_fr=0x7f06002f;
+        /**  Vehicles 
+         */
+        public static final int car_sp=0x7f060044;
+        /**  Buildings 
+         */
+        public static final int church_en=0x7f06000e;
+        /**  Buildings 
+         */
+        public static final int church_fr=0x7f060023;
+        /**  Buildings 
+         */
+        public static final int church_sp=0x7f060038;
+        /**  Clothes, etc. 
+         */
+        public static final int dress_en=0x7f060011;
+        /**  Clothes, etc. 
+         */
+        public static final int dress_fr=0x7f060026;
+        /**  Clothes, etc. 
+         */
+        public static final int dress_sp=0x7f06003b;
+        public static final int game_name=0x7f060004;
+        public static final int grapes_en=0x7f060019;
+        public static final int grapes_fr=0x7f06002e;
+        public static final int grapes_sp=0x7f060043;
+        /**  Food 
+         */
+        public static final int hamburger_en=0x7f060014;
+        /**  Food 
+         */
+        public static final int hamburger_fr=0x7f060029;
+        /**  Food 
+         */
+        public static final int hamburger_sp=0x7f06003e;
+        public static final int hat_en=0x7f060012;
+        public static final int hat_fr=0x7f060027;
+        public static final int hat_sp=0x7f06003c;
         public static final int hello_world=0x7f060002;
+        public static final int highscores=0x7f060006;
+        public static final int hotdog_en=0x7f060015;
+        public static final int hotdog_fr=0x7f06002a;
+        public static final int hotdog_sp=0x7f06003f;
+        public static final int house_en=0x7f06000f;
+        public static final int house_fr=0x7f060024;
+        public static final int house_sp=0x7f060039;
+        /**  VOCABLUARY STRINGS IN ENGLISH, FRENCH & SPANISH 
+ ENGLISH 
+ Accessories 
+         */
+        public static final int keys_en=0x7f060008;
+        /**  FRENCH 
+         */
+        public static final int keys_fr=0x7f06001d;
+        /**  SPANISH 
+         */
+        public static final int keys_sp=0x7f060032;
+        public static final int monkey_en=0x7f06000c;
+        public static final int monkey_fr=0x7f060021;
+        public static final int monkey_sp=0x7f060036;
+        public static final int motorbike_en=0x7f06001b;
+        public static final int motorbike_fr=0x7f060030;
+        public static final int motorbike_sp=0x7f060045;
+        public static final int options=0x7f060007;
+        public static final int phone_en=0x7f060009;
+        public static final int phone_fr=0x7f06001e;
+        public static final int phone_sp=0x7f060033;
+        public static final int pizza_en=0x7f060016;
+        public static final int pizza_fr=0x7f06002b;
+        public static final int pizza_sp=0x7f060040;
+        public static final int stadium_en=0x7f060010;
+        public static final int stadium_fr=0x7f060025;
+        public static final int stadium_sp=0x7f06003a;
+        /**  Buttons 
+         */
+        public static final int start=0x7f060005;
+        public static final int tiger_en=0x7f06000d;
+        public static final int tiger_fr=0x7f060022;
+        public static final int tiger_sp=0x7f060037;
+        public static final int title_activity_home_screen=0x7f060047;
         public static final int title_activity_lv1=0x7f060003;
+        public static final int title_activity_pjlkj=0x7f060048;
+        public static final int truck_en=0x7f06001c;
+        public static final int truck_fr=0x7f060031;
+        public static final int truck_sp=0x7f060046;
+        public static final int umbrella_en=0x7f060013;
+        public static final int umbrella_fr=0x7f060028;
+        public static final int umbrella_sp=0x7f06003d;
+        public static final int wallet_en=0x7f06000a;
+        public static final int wallet_fr=0x7f06001f;
+        public static final int wallet_sp=0x7f060034;
     }
     public static final class style {
         /** 

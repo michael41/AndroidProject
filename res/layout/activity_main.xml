@@ -4,7 +4,13 @@
 48x48 = mdpi
 72x72 = hdpi
 96x96 = xhdpi
-144x144 = xxhdpi -->
+
+Minimum screen size for background images = 
+normal screens are at least 470dp x 320dp (mdpi)
+large screens are at least 640dp x 480dp (hdpi)
+xlarge screens are at least 960dp x 720dp (xhdpi)
+
+-->
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
@@ -15,19 +21,62 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/background_image"
     tools:context=".MainActivity" >
 
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+<RelativeLayout
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/button1"
+<TextView
+        android:id="@+id/TVtitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+         android:textSize="45sp"
+        android:textColor="#FFFFFF"
+        android:text="@string/game_name" />    
+    
+    <Button
+         android:id="@+id/BTNstart"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_above="@+id/BTNhighscores"
+         android:layout_centerHorizontal="true"
+         android:layout_marginBottom="20dp"
+         android:onClick="startLv1"
+         android:text="@string/start"
+         android:textStyle="bold"
+         android:textSize="20sp"
+         android:background="@drawable/nova" />
+    
+    <Button
+        android:id="@+id/BTNhighscores"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
         android:onClick="startLv1"
-        android:text="Button" />
+        android:text="@string/highscores"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        android:background="@drawable/bluestar" />    
+
+     <Button
+         android:id="@+id/BTNoptions"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/BTNhighscores"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="20dp"
+         android:onClick="startLv1"
+         android:text="@string/options"
+         android:textStyle="bold"
+         android:textSize="12sp"
+         android:background="@drawable/bluestar" />
+
+</RelativeLayout>
+    
 
 </LinearLayout>
