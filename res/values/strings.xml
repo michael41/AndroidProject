@@ -52,9 +52,9 @@
     <string name="hat_en">Hat</string>
     <string name="umbrella_en">Umbrella</string>
     <!-- Food -->
-    <string name="hamburger_en">Hamburger</string>
-    <string name="hotdog_en">Hot Dog</string>
-    <string name="pizza_en">Pizza</string>
+    <string name="fork_en">fork</string>
+    <string name="knife_en">knife</string>
+    <string name="sppon_en">spoon</string>
     <!-- Fruit -->
     <string name="apple_en">Apple</string>
     <string name="banana_en">Banana</string>
