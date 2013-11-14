@@ -44,14 +44,27 @@ public final class R {
         public static final int pcard_banana=0x7f02000a;
         public static final int pcard_camel=0x7f02000b;
         public static final int pcard_car=0x7f02000c;
-        public static final int pcard_grapes=0x7f02000d;
-        public static final int pcard_monkey=0x7f02000e;
-        public static final int pcard_motorbike=0x7f02000f;
-        public static final int pcard_originalplayingcardback=0x7f020010;
-        public static final int pcard_playingcardback=0x7f020011;
-        public static final int pcard_qmark=0x7f020012;
-        public static final int pcard_tiger=0x7f020013;
-        public static final int pcard_truck=0x7f020014;
+        public static final int pcard_cardback_balloon=0x7f02000d;
+        public static final int pcard_cardback_bubble=0x7f02000e;
+        public static final int pcard_cardback_joystick=0x7f02000f;
+        public static final int pcard_church=0x7f020010;
+        public static final int pcard_dress=0x7f020011;
+        public static final int pcard_fork=0x7f020012;
+        public static final int pcard_grapes=0x7f020013;
+        public static final int pcard_hat=0x7f020014;
+        public static final int pcard_house=0x7f020015;
+        public static final int pcard_keys=0x7f020016;
+        public static final int pcard_knife=0x7f020017;
+        public static final int pcard_monkey=0x7f020018;
+        public static final int pcard_motorbike=0x7f020019;
+        public static final int pcard_phone=0x7f02001a;
+        public static final int pcard_qmark=0x7f02001b;
+        public static final int pcard_spoon=0x7f02001c;
+        public static final int pcard_stadium=0x7f02001d;
+        public static final int pcard_tiger=0x7f02001e;
+        public static final int pcard_truck=0x7f02001f;
+        public static final int pcard_umbrella=0x7f020020;
+        public static final int pcard_wallet=0x7f020021;
     }
     public static final class id {
         public static final int BTNhighscores=0x7f0a001a;

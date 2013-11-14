@@ -1,8 +1,8 @@
 <!--
  Dimensions for each drawable folder = 
 (same as ic_launcher)
-48x48 = mdpi
-72x72 = hdpi
+48x48 = mdpi - 50x50
+72x72 = hdpi - 80x80
 96x96 = xhdpi
 
 Minimum screen size for background images = 
