@@ -51,10 +51,10 @@
     <string name="dress_en">Dress</string>
     <string name="hat_en">Hat</string>
     <string name="umbrella_en">Umbrella</string>
-    <!-- Food -->
+    <!-- Cultery -->
     <string name="fork_en">Fork</string>
     <string name="knife_en">Knife</string>
-    <string name="sppon_en">Cuillère</string>
+    <string name="spoon_en">Spoon</string>
     <!-- Fruit -->
     <string name="apple_en">Apple</string>
     <string name="banana_en">Banana</string>
@@ -80,10 +80,10 @@
     <string name="dress_fr">Robe</string>
     <string name="hat_fr">Chapeau</string>
     <string name="umbrella_fr">Parapluie</string>
-    <!-- Food -->
-    <string name="hamburger_fr">Hamburger</string>
-    <string name="hotdog_fr">Hot Dog</string>
-    <string name="pizza_fr">Pizza</string>
+    <!-- Cultery -->
+    <string name="fork_fr">Fourche</string>
+    <string name="knife_fr">Couteau</string>
+    <string name="spoon_fr">Cuillère</string>
     <!-- Fruit -->
     <string name="apple_fr">Pomme</string>
     <string name="banana_fr">Banane</string>
@@ -109,10 +109,10 @@
     <string name="dress_sp">Vestido</string>
     <string name="hat_sp">Sombrero</string>
     <string name="umbrella_sp">Paraguas</string>
-    <!-- Food -->
-    <string name="hamburger_sp">Hamburguesa</string>
-    <string name="hotdog_sp">Hot Dog</string>
-    <string name="pizza_sp">Pizza</string>
+    <!-- Cultery -->
+    <string name="fork_sp">Tenedor</string>
+    <string name="knife_sp">Cuchillo</string>
+    <string name="spoon_sp">Cuchara</string>
     <!-- Fruit -->
     <string name="apple_sp">Manzana</string>
     <string name="banana_sp">Plátano</string>
